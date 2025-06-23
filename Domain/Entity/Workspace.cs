@@ -22,7 +22,7 @@ namespace Domain.Entity
 		public string? User { get; set; }
 
 
-		public ICollection<ListCard> ListsCards { get; set; }
+		public ICollection<ListCard>? ListsCards { get; set; }
 		public StatusItemEnum Status { get; set; } = StatusItemEnum.Active;
 		public DateTime CreatedAt { get; set; } = DateTime.Now;
 	}
