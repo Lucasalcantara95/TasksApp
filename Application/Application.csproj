@@ -18,8 +18,6 @@
 
   <ItemGroup>
     <Folder Include="UserCQ\Validators\" />
-    <Folder Include="UserCQ\ViewModels\" />
-    <Folder Include="UserCQ\Handlers\" />
   </ItemGroup>
 
 </Project>
