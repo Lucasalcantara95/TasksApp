@@ -34,7 +34,7 @@ namespace Domain.Entity
 
 		
 		[Required]
-		public string? PassswordHash { get; set; }
+		public string? Password { get; set; }
 
 
 		[Required]
@@ -44,6 +44,6 @@ namespace Domain.Entity
 
 		public string? RefreshToken { get; set; }
 
-		public DateTime RefreshTokenExpiryTime { get; set; }
+		public DateTime? RefreshTokenExpirationTime { get; set; }
 	}
 }
