@@ -1,4 +1,6 @@
-﻿namespace Application.UserCQ.ViewModels
+﻿using System.Reflection.Metadata;
+
+namespace Application.UserCQ.ViewModels
 {
 	public record UserInfoViewModel
 	{
